@@ -1,3 +1,15 @@
+/*
+
+Função onde pede ao usuário para  informar a quantdade de notas e
+pede ao usuario o valor das notas referente a quantidade informadas.
+
+Após informar o valor das notas a função vai  somar e logo em seguida divide a a soma
+pela quantidade de notas.
+
+abaixo da função o console.log imprime o valor da media das notas.
+
+*/
+
 function medianotas(valor,valor1,valor2){
     let quantidadeNotas = parseInt(prompt("Quantas notas você quer inserir?"));
     let notas = [];
