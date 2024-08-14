@@ -1,0 +1,90 @@
+body {
+  background-color: #000000;
+  color: #fef8f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  background-color: #333639;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #6a6e72;
+}
+.card-logo {
+
+  width: 50px;
+  filter: invert(1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #6a6e72;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #556fe3;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0c32a2;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #8e9194;
+}
+
+table th {
+  background-color: #484b4e;
+}
+
+table tr:nth-child(even) {
+  background-color: #333639;
+}
+
+table tr:hover {
+  background-color: #292c2e;
+}
+
+table a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
